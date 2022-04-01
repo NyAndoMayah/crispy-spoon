@@ -14,7 +14,7 @@ function generateUnorderedArray(size) {
 
 module.exports = { generateUnorderedArray };
 /*
-T4 = 1+n(4+14n+1+1+4+3+1)= 1+n(4+14n)=14n**2+4n+1
+T4 = 1+n(7+4+14n+1+1+4+3+1)= 1+n(21+14n)=14n**2+21n+1
 quand n tend vers + infini alors T4= +infini
 donc la complexité est O(n**2)
 */
