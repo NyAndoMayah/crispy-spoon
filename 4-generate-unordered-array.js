@@ -5,7 +5,7 @@ function generateUnorderedArray(size) {
   for (let i = 0; i < size; i++) {//7
     let number = Math.floor(Math.random() * 100);//4
     while (arrayContain(array, number)) //14n+1+1
-      number = Math.floor(Math.random() * 100);//4
+      number = Math.floor(Math.random() * 100);// 4
     }
     array.push(number);//3
   }
